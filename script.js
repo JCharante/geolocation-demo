@@ -7,7 +7,7 @@ function getLocation() {
 }
 
 function generateGoogleMapsLink(longitude, latitude) {
-    return `https://www.google.com/maps/place/${longitude},${latitude},15.48z`;
+    return `https://www.google.com/maps/place/${latitude},${longitude}`;
 }
 
 function generateATag(text, link) {
